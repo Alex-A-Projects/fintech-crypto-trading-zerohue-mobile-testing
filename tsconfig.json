@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": ["ES2022", "DOM"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "isolatedModules": true,
+    "declaration": false,
+    "sourceMap": true,
+    "types": ["node", "mocha", "@wdio/types", "expect-webdriverio"]
+  },
+  "include": ["pages/**/*", "tests/**/*", "utils/**/*", "wdio.*.conf.ts"],
+  "exclude": ["node_modules", "allure-results", "allure-report"]
+}

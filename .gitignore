@@ -1,0 +1,27 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artefacts
+*.tsbuildinfo
+.DS_Store
+
+# Allure output (raw results + generated HTML report)
+allure-results/
+allure-report/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Local env / secrets
+.env
+.env.local
+
+# WDIO logs
+wdio-*.log
+wdio.log
